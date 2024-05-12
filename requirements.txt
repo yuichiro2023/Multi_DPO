@@ -1,0 +1,8 @@
+transformers==4.39.3
+bitsandbytes
+accelerate
+flash_attn
+datasets
+sentencepiece
+peft
+trl
