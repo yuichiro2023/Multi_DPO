@@ -13,10 +13,6 @@
     ```bash
     accelerate launch --config_file accelerate_config.yaml DPO/Multi_DPO_prod.py
     ```
-    
-    このコマンドは **`accelerate`** によって管理され、configによって指定された数のプロセスがGPUに割り当てられます。
-    
-    このプロセスにより、指定された数のGPUを効率的に使用し、トレーニングの効率を最大化できます。また、**`accelerate`** の設定がスクリプトに適切に反映されるようになり、GPUリソースの管理が簡素化されます。
 
 ### **参考資料**
 上記の記載は以下資料を参考にしています。
