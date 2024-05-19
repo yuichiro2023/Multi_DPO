@@ -21,7 +21,7 @@
     ```
 
 ### **参考資料**
-上記の記載は以下資料を参考にしています。
-https://github.com/hibikaze-git/sft-deepseekmoe-test
+上記の記載は以下資料を参考にしています。  
+https://github.com/hibikaze-git/sft-deepseekmoe-test  
 https://github.com/huggingface/trl/blob/main/docs/source/sft_trainer.mdx#multi-gpu-training
 https://huggingface.co/docs/transformers/en/perf_train_gpu_many?select-gpu=Accelerate#number-of-gpus
