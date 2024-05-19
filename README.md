@@ -1,6 +1,12 @@
-### **1. 必要なライブラリのインストール**
+## **DPO-deepseekmoe-test**
+- JINIAC DeepseekMoEのDPOのテストコード
 
-- トレーニングに必要なライブラリ（**`transformers`**, **`datasets`**, **`torch`**, **`accelerate`** など）をインストール。
+
+### **1. 必要なライブラリのインストール**
+-  以下に従い、環境構築を行う
+    -  https://github.com/matsuolab/ucllm_nedo_prod/blob/main/train/README-train_gcp_play_single_node_multi_gpu.md
+
+- トレーニングに必要なライブラリを追加でインストール。
     
     ```bash
     pip install -r requirements.txt
@@ -16,5 +22,6 @@
 
 ### **参考資料**
 上記の記載は以下資料を参考にしています。
+https://github.com/hibikaze-git/sft-deepseekmoe-test
 https://github.com/huggingface/trl/blob/main/docs/source/sft_trainer.mdx#multi-gpu-training
 https://huggingface.co/docs/transformers/en/perf_train_gpu_many?select-gpu=Accelerate#number-of-gpus
