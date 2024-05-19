@@ -25,3 +25,6 @@
 https://github.com/hibikaze-git/sft-deepseekmoe-test  
 https://github.com/huggingface/trl/blob/main/docs/source/sft_trainer.mdx#multi-gpu-training
 https://huggingface.co/docs/transformers/en/perf_train_gpu_many?select-gpu=Accelerate#number-of-gpus
+
+コードは以下を参考にしております。
+https://note.com/npaka/n/n23576a1211a0
